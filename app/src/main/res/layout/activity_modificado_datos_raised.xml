@@ -53,7 +53,7 @@
                     android:text="Ingreso" />
 
                 <EditText
-                    android:id="@+id/E_s.anterior_raised"
+                    android:id="@+id/E_ingreso_raised"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -72,10 +72,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="6"
                     android:gravity="center"
-                    android:text="Ingreso" />
+                    android:text="Saldo Anterior" />
 
                 <EditText
-                    android:id="@+id/E_ingreso_raised"
+                    android:id="@+id/E_s.anterior_raised"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"

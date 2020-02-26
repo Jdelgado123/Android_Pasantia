@@ -163,8 +163,8 @@ public class Creacion_raised extends AppCompatActivity {
 
     private void PostDatosRaised(){
         String date=mE_date.getText().toString().trim();
-        String food_income=mS_anterior.getText().toString().trim();
-        String food_deposit=mE_ingreso.getText().toString().trim();
+        String food_income=mE_ingreso.getText().toString().trim();
+        String food_deposit=mS_anterior.getText().toString().trim();
         String food_consumption=mConsumo.getText().toString().trim();
         String final_deposit=mE_final.getText().toString().trim();
         String chicken_death=mE_chickendeath.getText().toString().trim();

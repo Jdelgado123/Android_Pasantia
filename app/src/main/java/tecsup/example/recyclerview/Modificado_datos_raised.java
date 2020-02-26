@@ -74,8 +74,8 @@ public class Modificado_datos_raised extends AppCompatActivity {
 
     private void MostrarDatosRaised(){
         mE_date.setText(date);
-        mS_anterior.setText(food_income);
-        mE_ingreso.setText(food_deposit);
+        mS_anterior.setText(food_deposit);
+        mE_ingreso.setText(food_income);
         mConsumo.setText(food_consumption);
         mE_final.setText(final_deposit);
         mE_chickendeath.setText(chicken_death);
@@ -83,8 +83,8 @@ public class Modificado_datos_raised extends AppCompatActivity {
     }
 
     private void Update_Raised(String id,String shed,String date){
-        String food_income=mS_anterior.getText().toString().trim();
-        String food_deposit=mE_ingreso.getText().toString().trim();
+        String food_income=mE_ingreso.getText().toString().trim();
+        String food_deposit=mS_anterior.getText().toString().trim();
         String food_consumption=mConsumo.getText().toString().trim();
         String final_deposit=mE_final.getText().toString().trim();
         String chicken_death=mE_chickendeath.getText().toString().trim();

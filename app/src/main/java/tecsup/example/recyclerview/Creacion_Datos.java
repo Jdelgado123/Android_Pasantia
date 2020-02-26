@@ -36,7 +36,7 @@ public class Creacion_Datos extends AppCompatActivity{
 
     private Spinner mE_shed;
     public String shed;
-    private EditText mS_anterior,mE_ingreso,mConsumo,mE_final,mE_chickendeath,mE_date,mE_package_total,mE_leftover_eggs,mE_observation,mE_egg_white,mE_egg_break,mE_egg_dirty;
+    private EditText mE_ingreso,mS_anterior,mConsumo,mE_final,mE_chickendeath,mE_date,mE_package_total,mE_leftover_eggs,mE_observation,mE_egg_white,mE_egg_break,mE_egg_dirty;
     Calendar myCalendar = Calendar.getInstance();
     private String recibido,granja,token_reci,group;
     private String verificacion_Arriva="Granja_Arriva";
@@ -64,8 +64,8 @@ public class Creacion_Datos extends AppCompatActivity{
         }
 
         mE_shed=findViewById(R.id.C_sheed);
-        mS_anterior=findViewById(R.id.C_s_anterior);
         mE_ingreso=findViewById(R.id.C_ingreso);
+        mS_anterior=findViewById(R.id.C_s_anterior);
         mConsumo=findViewById(R.id.C_consumo);
         mE_final=findViewById(R.id.C_s_final);
         mE_chickendeath=findViewById(R.id.C_chicken_death);
@@ -168,8 +168,8 @@ public class Creacion_Datos extends AppCompatActivity{
 
     private void PostDatos(){
         String date=mE_date.getText().toString().trim();
-        String food_income=mS_anterior.getText().toString().trim();
-        String food_deposit=mE_ingreso.getText().toString().trim();
+        String food_income=mE_ingreso.getText().toString().trim();
+        String food_deposit=mS_anterior.getText().toString().trim();
         String food_consumption=mConsumo.getText().toString().trim();
         String final_deposit=mE_final.getText().toString().trim();
         String chicken_death=mE_chickendeath.getText().toString().trim();
