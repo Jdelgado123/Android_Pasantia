@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listaitem_raised"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contenido_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/contenido1_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="3900" />
+
+        <TextView
+            android:id="@+id/contenido2_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="4000" />
+
+        <TextView
+            android:id="@+id/contenido3_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="1100" />
+
+        <TextView
+            android:id="@+id/contenido4_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:text="2800" />
+
+        <TextView
+            android:id="@+id/contenido5_raised"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="38" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listaitem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/contenido1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="3900" />
+
+        <TextView
+            android:id="@+id/contenido2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="4000" />
+
+        <TextView
+            android:id="@+id/contenido3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="1100" />
+
+        <TextView
+            android:id="@+id/contenido4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="2800" />
+
+        <TextView
+            android:id="@+id/contenido5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="38" />
+
+        <TextView
+            android:id="@+id/contenido6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="60" />
+
+        <TextView
+            android:id="@+id/contenido7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/stylo_border_tablas_dentro"
+            android:gravity="center"
+            android:text="10" />
+    </LinearLayout>
+</LinearLayout>
